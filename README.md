@@ -1,7 +1,7 @@
 # CactusTools
 
 一款专为 Minecraft 1.20.1 Paper 服务器设计的插件，用于解决服务器卡顿导致的仙人掌生长后方块状态更新异常问题。
-> **注意**：本插件由 AI 开发，旨在简化跨服传送流程并优化玩家体验。
+> **注意**：本插件由 AI 开发。
 
 ## 问题描述
 
@@ -128,7 +128,7 @@ config-version: 1.0
 
 A Minecraft 1.20.1 Paper server plugin designed to fix cactus growth block state update issues caused by server lag.
 
-> **Note**: This plugin is developed by AI, aiming to simplify cross-server teleportation processes and optimize player experience.
+> **Note**: This plugin is developed by AI.
 
 ## Problem Description
 
