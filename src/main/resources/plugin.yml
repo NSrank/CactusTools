@@ -1,0 +1,22 @@
+name: CactusTools
+version: '${project.version}'
+main: org.plugin.cactustools.CactusTools
+api-version: '1.20'
+load: STARTUP
+description: '解决服务器卡顿导致的仙人掌生长后方块状态更新异常问题'
+author: 'NSrank & Augment'
+
+commands:
+  cactustools:
+    description: 'CactusTools 主命令'
+    usage: '/cactustools [reload]'
+    permission: cactustools.use
+    aliases: [ct, ctools]
+
+permissions:
+  cactustools.use:
+    description: '使用 CactusTools 基本命令'
+    default: op
+  cactustools.reload:
+    description: '重载 CactusTools 配置文件'
+    default: op
